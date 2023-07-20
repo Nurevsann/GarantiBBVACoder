@@ -9,10 +9,16 @@ public class KDVhesaplama {
 
         System.out.println("Lütfen tutarı giriniz:");
         tutar = input.nextDouble();
+        if (tutar<1000) {
+            double kdv = tutar * 18 / 100;
+            System.out.println("KDV tutarı =" +kdv);
+        } else {
+            double kdv = tutar * 8 / 100;
+            System.out.println("KDV tutarı =" +kdv);
+        }
 
-        double kdv = tutar*18/100;
 
-        System.out.println("KDV tutarı =" +kdv);
+
 
     }
 }
