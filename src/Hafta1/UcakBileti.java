@@ -36,7 +36,7 @@ public class UcakBileti {
             indirimliTutar -= normalTutar * 0.30;
         }
 
-        // Yolculuk tipi indirimi
+
         if (yolculuk_tipi == 2) {
             indirimliTutar -= indirimliTutar * 0.20;
         }
