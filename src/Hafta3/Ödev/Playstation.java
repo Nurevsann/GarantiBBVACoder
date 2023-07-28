@@ -1,4 +1,4 @@
-package Ödev;
+package Hafta3.Ödev;
 
 public class Playstation implements GameController{
     public void pressButton(String button) {

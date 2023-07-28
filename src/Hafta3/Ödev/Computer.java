@@ -1,4 +1,4 @@
-package Ödev;
+package Hafta3.Ödev;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Ödev;
+package Hafta3.Ödev;
 
 public class XBOX implements GameController{
 

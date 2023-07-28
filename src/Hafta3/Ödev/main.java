@@ -1,4 +1,4 @@
-package Ödev;
+package Hafta3.Ödev;
 
 public class main { //bütün sınıfları bu classta çalıştırıyoruz
     public static void main(String[] args) {
