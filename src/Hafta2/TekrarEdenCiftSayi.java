@@ -6,15 +6,15 @@ import java.util.Scanner;
 
 public class TekrarEdenCiftSayi {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Dizi uzunluğunu girin: ");
-        int length = scanner.nextInt();
+        int length = input.nextInt();
 
         int[] numbers = new int[length];
         System.out.println("Dizi elemanlarını girin:");
         for (int i = 0; i < length; i++) {
-            numbers[i] = scanner.nextInt();
+            numbers[i] = input.nextInt();
         }
 
         Map<Integer, Integer> frequencyMap = new HashMap<>();
