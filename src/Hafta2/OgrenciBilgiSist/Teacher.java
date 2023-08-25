@@ -1,9 +1,21 @@
 package Hafta2.OgrenciBilgiSist;
 
 public class Teacher {
-    public static void main(String[] args) {
-        String name,mpno,branch;
-    }
+    String name;
+    String mpno;
+    String branch;
 
-    void Teacher(){}
+
+
+     Teacher(String name,String mpno,String branch){
+         this.name = name;
+         this.mpno = mpno;
+         this.branch = branch;
+     }
+
+    void print(){
+        System.out.println("Adı : "+this.name);
+        System.out.println("Telefon No : "+this.mpno);
+        System.out.println("Bölümü : "+this.branch);
+    }
 }
